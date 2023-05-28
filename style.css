@@ -1,0 +1,152 @@
+body,
+html {
+  margin: auto;
+  background-color: rgb(194, 244, 244);
+  display: flex;
+}
+/* background */
+.container {
+  max-width: 80%;
+  height: 85rem;
+  background-color: #f6faf9;
+  margin: 10px auto 10px auto;
+  padding: 8px;
+  box-shadow: 12px 12px 24px rgba(79, 209, 107, 0.64);
+}
+/* header*/
+.section {
+  display: flex;
+}
+.text {
+  margin-left: 20px;
+  display: flex;
+  position: relative;
+  top: 150px;
+  font-size: 110%;
+}
+.text h1 {
+  margin: 10;
+  display: flex;
+  position: relative;
+  top: -175px;
+}
+/* PROFIL */
+.Profesional-title {
+  background-color: rgb(255, 223, 124);
+  width: auto;
+  height: 80px;
+  display: flex;
+}
+#title {
+  background-color: rgb(15, 15, 15);
+  width: 400px;
+  height: 30px;
+  margin-top: 25px;
+  align-items: center;
+  display: flex;
+  position: relative;
+  top: auto;
+}
+#name {
+  margin: auto;
+}
+/* contact */
+.contact {
+  background-color: rgb(88, 88, 88);
+  width: 320px;
+  height: 320px;
+  position: relative;
+}
+/* contact main*/
+h5,
+h3,
+h4 {
+  margin: 30px;
+  color: aliceblue;
+}
+
+h4 {
+  color: aliceblue;
+}
+#phone {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  position: relative;
+  top: -30px;
+}
+#facebook {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  position: relative;
+  top: -90px;
+}
+#maps {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  position: relative;
+  top: -160px;
+}
+#email {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  position: relative;
+  top: -230px;
+}
+
+/* skill  expersive*/
+.expertise {
+  background-color: rgb(64, 64, 64);
+  width: 320px;
+  height: 350px;
+  position: relative;
+  top: -220px;
+}
+li {
+  color: aliceblue;
+}
+/* EDUCATION */
+.education {
+  background-color: rgb(6, 6, 0);
+  width: 320px;
+  height: 220px;
+  position: relative;
+  top: -220px;
+}
+#polman {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  position: relative;
+  top: -60px;
+}
+#smk {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  position: relative;
+  top: -120px;
+}
+/* WORK */
+.work {
+  width: 650px;
+  position: relative;
+  left: 320px;
+  top: -1105px;
+}
+.work h3 {
+  color: rgb(11, 9, 9);
+}
+.work h4 {
+  color: black;
+  position: relative;
+  top: -75px;
+}
+p {
+  margin: 10px;
+  position: relative;
+  top: -80px;
+}
